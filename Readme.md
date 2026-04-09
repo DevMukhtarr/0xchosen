@@ -1,6 +1,6 @@
 # 0xchosen
 
-> AI-powered recon tool for smart contract security auditors. Scan a Solidity codebase, extract structured facts, and generate a full recon report in seconds.
+AI-powered recon tool for smart contract security auditors. Scan a Solidity codebase, extract structured facts, and generate a full recon report in seconds.
 
 ---
 
@@ -70,8 +70,8 @@ Download the latest binary for your platform from the [Releases](../../releases)
 ### Linux / macOS
 
 ```bash
-# Download (replace vX.X.X with the latest version)
-wget https://github.com/yourname/0xchosen/releases/download/vX.X.X/0xchosen-linux-amd64
+# Download
+wget https://github.com/devmukhtarr/0xchosen/releases/download/v1.0.0/0xchosen-linux-amd64
 chmod +x 0xchosen-linux-amd64
 mv 0xchosen-linux-amd64 /usr/local/bin/0xchosen
 ```
