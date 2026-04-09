@@ -1,1 +1,5 @@
+# environment variable
 .env
+
+# the executable file
+*.exe

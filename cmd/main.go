@@ -10,6 +10,7 @@ import (
 	"github.com/devmukhtarr/0xchosen/internal/dependency"
 	"github.com/devmukhtarr/0xchosen/internal/extractor"
 	"github.com/devmukhtarr/0xchosen/internal/filelist"
+	"github.com/devmukhtarr/0xchosen/internal/help"
 	"github.com/devmukhtarr/0xchosen/internal/parser"
 	"github.com/devmukhtarr/0xchosen/internal/relationship"
 	"github.com/devmukhtarr/0xchosen/internal/report"
@@ -32,6 +33,8 @@ func main() {
 		runFilelist()
 	case "getrecon":
 		runGetRecon()
+	case "--help", "-h", "help":
+		help.PrintHelp()
 	default:
 		fmt.Printf("Unknown command: %s\n", os.Args[1])
 		os.Exit(1)
