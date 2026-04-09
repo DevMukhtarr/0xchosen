@@ -71,7 +71,7 @@ Download the latest binary for your platform from the [Releases](../../releases)
 
 ```bash
 # Download (replace vX.X.X with the latest version)
-wget https://github.com/yourname/0xchosen/releases/download/vX.X.X/0xchosen-linux-amd64
+wget https://github.com/devmukhtarr/0xchosen/releases/download/vX.X.X/0xchosen-linux-amd64
 chmod +x 0xchosen-linux-amd64
 mv 0xchosen-linux-amd64 /usr/local/bin/0xchosen
 ```
