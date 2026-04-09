@@ -1,6 +1,6 @@
 # 0xchosen
 
-> AI-powered recon tool for smart contract security auditors. Scan a Solidity codebase, extract structured facts, and generate a full recon report in seconds.
+AI-powered recon tool for smart contract security auditors. Scan a Solidity codebase, extract structured facts, and generate a full recon report in seconds.
 
 ---
 
