@@ -83,10 +83,9 @@ Verify:
 
 ### Windows
 
-1. Download `0xchosen-windows-amd64.exe` from the [Releases](../../releases) page
-2. Rename it to `0xchosen.exe`
-3. Move it to a folder that is in your `PATH`, e.g. `C:\tools\`
-4. Or run it directly from the folder containing your project
+1. Download `0xchosen.exe` from the [Releases](../../releases) page
+2. Move it to a folder that is in your `PATH`, e.g. `C:\tools\`
+3. Or run it directly from the folder containing your project
 
 ---
 
