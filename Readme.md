@@ -195,13 +195,6 @@ This is a lending protocol that allows users to deposit ERC20 collateral...
 ## Trust Assumptions & Roles
 - `owner` can update the oracle address — critical trust assumption
 - `LIQUIDATOR_ROLE` can trigger liquidations without user consent
-
-## Upgrade / Admin Risks
-- Contract uses a transparent proxy pattern. The `ProxyAdmin` owner can upgrade implementation at any time.
-
-## Interesting Attack Surfaces
-- Oracle manipulation: if the price feed is stale or manipulated, undercollateralized borrows are possible
-- Reentrancy in `withdraw()` — Slither flagged a potential issue (medium confidence)
 ```
 
 ---
