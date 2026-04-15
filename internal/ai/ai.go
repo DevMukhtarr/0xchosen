@@ -150,10 +150,10 @@ Based on the structured facts above, generate detailed recon notes with these se
 1. **Protocol Overview** — What does this protocol do?
 2. **Core Modules & Their Roles** — Break down each contract and its responsibility
 3. **Trust Assumptions & Roles** — Who has admin/owner access? What can they do?
-4. **Upgrade & Admin Risks** — Any proxy patterns, upgrade mechanisms, or dangerous admin powers?
-5. **Interesting Attack Surfaces** — Based on entry points, state variables, and detector warnings, what areas deserve deeper audit focus?
 
-Be specific and technical. Reference actual contract and function names.`)
+Be specific and technical. Reference actual contract and function names that exist, Do not introduce
+what you are not sure about.
+.`)
 
 	return sb.String()
 }
