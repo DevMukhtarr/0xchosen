@@ -13,7 +13,7 @@ import (
 )
 
 const groqURL = "https://api.groq.com/openai/v1/chat/completions"
-const model = "moonshotai/kimi-k2-instruct"
+const model = "openai/gpt-oss-120b"
 
 type groqRequest struct {
 	Model    string    `json:"model"`
